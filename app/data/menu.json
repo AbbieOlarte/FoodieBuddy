@@ -1,0 +1,20 @@
+[
+    {
+        "id": "15487",
+        "foodName": "Regular Burger",
+        "ingredients": "Beef Burger Patty, Pickles",
+        "price": 30
+    },
+    {
+        "id": "15488",
+        "foodName": "Cheese Burger",
+        "ingredients": "Beef Burger Patty, Pickles, Cheese",
+        "price": 40
+    },
+    {
+        "id": "15489",
+        "foodName": "Mushroom Burger",
+        "ingredients": "Beef Burger Patty, Pickles, Cheese, Mushroom",
+        "price": 30
+    }
+]

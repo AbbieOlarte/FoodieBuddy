@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<title>FoodieBuddy</title>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="icon" type="image/ico" href="/images/foodiebuddy_brand.png">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/menu.css">
+</head>
+
+<body ng-app="foodiebuddyApp">
+
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse nav-position">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mx-auto">
+        <a class="nav-item nav-link" id="navHome" ui-sref="home">Home</a>
+        <a class="nav-item nav-link" href="#">Location & Hours</a>
+        <a class="nav-item nav-link" ui-sref="menu">Menu</a>
+        <a class="nav-item nav-link" ui-sref="reservation">Reservations</a>
+        <a class="nav-item nav-link" href="#">Order Online</a>
+      </div>
+    </div>
+  </nav>
+
+  <div>
+    <div ui-view></div>
+  </div>
+
+  <!-- build:js(.) scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/tether/dist/js/tether.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js({.tmp,app}) scripts/scripts.js -->
+  <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/main.js"></script>
+  <script src="scripts/controllers/ReservationController.js"></script>
+  <script src="scripts/controllers/MenuController.js"></script>
+  <script src="scripts/services/GlobalService.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>

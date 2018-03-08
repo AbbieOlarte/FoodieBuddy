@@ -1,0 +1,253 @@
+.title-container{
+    background-color:rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 100%;
+    height: 48rem;
+}
+.bg1-container{
+    background: url('/images/bg3.jpeg') center fixed no-repeat;
+    background-size: cover;
+}
+#page-title{ 
+    position: absolute;
+    color: rgba(250, 250, 250, 0.78);
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top:150px;
+}
+.first-title{
+    font-family: Courier New, Courier, monospace;
+    font-size: 150px;
+    font-weight: bold;
+}
+.sec-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+}
+.passion-container{
+    width: 100%;
+    height: 48rem;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    padding: 80px;
+    border-top: 7px solid  #292b2c;
+}
+.heading-label{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height:5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+    background-color: #292b2c;
+    font-size: 20px;
+    text-align: center;
+}
+.heading-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+.container{
+    position: absolute;
+    top: 8%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.bg2-container{
+    background: url('/images/bg1.jpeg') center fixed no-repeat;
+    background-size: cover;
+}
+.order-container{
+    background-color:black;
+    position: relative;
+    opacity: 0.5;
+    width: 100%;
+    height: 45rem;
+}
+.order-out{
+    position: relative;
+    height: 22.5rem;
+    width: 100%;
+}
+.order-out-box{
+    height: 15rem;
+    width: 40rem;
+    position: relative;
+    border: 5px solid white;
+    margin: auto;
+    top: 20%;
+    padding: 10px;
+}
+.take-out{
+    margin-top: 50px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    opacity: 1;
+}
+.see-take-out{
+    text-align: center;
+    opacity: 1;
+}
+.see-take-out a{
+    color: white;
+    text-decoration: none;
+}
+.bg3-container{
+    width: 100%;
+    height: 31rem;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    padding: 80px;
+    border-top: 7px solid  #292b2c;
+}
+.private-events-label{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height:7%;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+    background-color: #292b2c;
+    font-size: 20px;
+    text-align: center;
+}
+.private-events-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10%;
+}
+.contact-button{
+    background-color: white;
+    color: rgba(34, 34, 34, 1);
+    border: 2px solid rgba(34, 34, 34, 1);
+    width: 200px;
+    height: 45px;
+}
+.contact-button:hover{
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+    border: 2px solid rgba(34, 34, 34, 1);
+    width: 200px;
+    height: 45px;
+}
+.bg4-container{
+    width: 100%;
+    height: 45rem;
+    position: relative;
+    background-color: rgba(34, 34, 34, 1);
+    z-index: 1;
+}
+.grab-burger-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+}
+.text-location{
+    position: relative;
+    color:white;
+    text-align: left;
+}
+.location-container{
+    padding-top: 50px;
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+    position: relative;
+    height: 30rem;
+}
+.mailing-container{
+    position: relative;
+    height: 15rem;
+    color:white;
+    margin-left:15%;
+    margin-right:15%;
+}
+.join-font{
+    font-weight: bold;
+    font-size: 20px;
+}
+.alignment{
+    margin-left: 15%;
+}
+.email-input{
+    border: 2px solid white;
+    background-color: rgba(34, 34, 34, 1);
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.76);
+    padding: 8px;
+    width: 340px;
+    margin-top:1%;
+}
+.submit-email-button{
+    background-color: white;
+    color: rgba(34, 34, 34, 1);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px;
+    width: 340px;
+    margin-top:1%;
+}
+.bg-dropdown{
+    background-color: #292b2c;
+}
+.bgReservation-container{
+    width: 100%;
+    height: 31rem;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    padding: 80px;
+    border-top: 7px solid  #292b2c;
+}
+.reservation-label{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height:7%;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+    background-color: #292b2c;
+    font-size: 20px;
+    text-align: center;
+}
+.reservation-field{
+    color:rgba(34,34,34,1);
+    height: 40px;
+    border: 3px solid rgba(34,34,34,1);
+    width: 220px;
+    margin-left: 10px;
+}
+.reservation-button{
+    background-color: rgba(34,34,34,1);
+    border: 3px solid rgba(34,34,34,1);
+    height: 40px;
+    width: 220px;
+    color: rgba(255,255,255,1);
+    margin-left: 10px;
+}
+.res-in-line{
+    display: inline-block;
+}
+.res-field-container{
+    text-align: center;
+}
